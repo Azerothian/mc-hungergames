@@ -1,0 +1,24 @@
+name: hungergames
+main: au.com.illisian.hg.MainPlugin
+version: 1
+commands:
+  register:
+    description: Register yourself for the HungerGames
+    usage: /<command>
+  timeleft:
+    description: Check the time remaining for Registration or of a Match.
+    usage: /<command>
+  talk:
+    description: Instructions on how to communicate on the server
+    usage: /<command>
+  welcome:
+    description: Instructions on how the games work
+    usage: /<command>
+  players:
+    description: Instructions on how the games work
+    usage: /<command>
+  warp:
+    description: Warp world
+    usage: /<command>
+    permission: <plugin name>.warp
+    permission-message: You don't have <permission>
